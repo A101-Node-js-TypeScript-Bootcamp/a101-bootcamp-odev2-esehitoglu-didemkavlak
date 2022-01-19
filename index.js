@@ -1,10 +1,9 @@
-// express projeye dahil edilbi
+// express projeye dahil edildi
 const express = require('express')
 const app = express()
 
 /* api yoluna request gönderilirse çalıştırılacak olan işlemlerin bulunduğu
-dosya dahil edildi 
-*/
+dosya dahil edildi */
 const endpoint = require('./routes/api')
 
 // jwt ve error handler dosyaları dahil edildi
@@ -28,5 +27,5 @@ app.use(errorHandler)
 
 // server'ı 3000 portu ile ayağı kaldırdık
 app.listen(3000,(req,res)=>{
-    console.log("çalıştı")
+    console.log("Servis running...")
 }) 
