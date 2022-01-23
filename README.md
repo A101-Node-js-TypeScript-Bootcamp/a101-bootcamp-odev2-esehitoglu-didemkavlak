@@ -14,7 +14,13 @@ Run:
   npm install
 ```
 
-The above code creates node_models file
+The above code creates node_models file,
+
+Use the code below to start the application
+
+```bash
+  node index
+```
 
 * JWT integration and Error Handler integration done.
 <p align="center">
